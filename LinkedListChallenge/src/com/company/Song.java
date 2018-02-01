@@ -15,6 +15,8 @@ public class Song {
 
     @Override
     public String toString() {
-        return this.title + ": " + this.duration;
+        return this.title + ": " + this.duration; //toString is part of the Object class that is extended by all other Objects
+        //Number represents the memory location
+        //That's why it needs to be overridden
     }
 }
