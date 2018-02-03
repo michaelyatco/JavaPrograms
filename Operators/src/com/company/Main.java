@@ -75,7 +75,7 @@ public class Main {
         isCar = true;
         boolean wasCar = isCar ? true : false; //ternary operator
         if(wasCar)
-            System.out.print("wasCar is true");
+            System.out.print("wasCar is true.");
 
         double myFirstValue = 20d;
         double mySecondValue = 80d;
