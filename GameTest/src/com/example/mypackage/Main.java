@@ -1,4 +1,8 @@
-package com.example.game;
+package com.example.mypackage;
+
+import com.example.game.ISaveable;
+import com.example.game.Monster;
+import com.example.game.Player;
 
 import java.util.ArrayList;
 import java.util.Scanner;
