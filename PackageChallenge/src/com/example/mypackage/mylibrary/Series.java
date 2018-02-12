@@ -7,13 +7,14 @@ public class Series {
     }
 
     public static long factorial(int n) {
-        if (n == 0) {
-            return 1; //A factorial of 0 is 1
+        if(n == 0) {
+            return 0; //A factorial of 0 should return 1;
         }
         long fact = 1;
-        for (int i = 1; i <= n; i++) {
-            fact *= 1;
+        for (int i=1; i <= n; i++) {
+            fact *= i;
         }
+
         return fact;
     }
 
