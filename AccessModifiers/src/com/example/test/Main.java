@@ -9,8 +9,10 @@ public class Main {
 	    timsAccount.withdraw(-200);
 	    timsAccount.deposit(-20);
 	    timsAccount.calculateBalance();
-	    timsAccount.balance = 5000; //Because it's stated as public
+	    // timsAccount.balance = 5000; Will only work if balance is stated as public
 
 	    System.out.println("Balance on account is " + timsAccount.getBalance());
+	    //timsAccount.transactions.add(4500); Will only work if transactions is public
+		//timsAccount.calculateBalance();
     }
 }
