@@ -12,7 +12,7 @@ public class Password {
         return password ^ key; //^XOR the value
     }
 
-    public void storePassword() {
+    public final void storePassword() { //final makes this method protected from overriding
         System.out.println("Saving password as " + this.encryptedPassword);
     }
 
