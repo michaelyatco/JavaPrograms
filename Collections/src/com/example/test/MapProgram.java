@@ -29,6 +29,19 @@ public class MapProgram {
           System.out.println("========================");
 //          languages.put("Java", "This will override the original key, value");
 
+//        languages.remove("Lisp");
+        if(languages.remove("Algol", "a family of algorithmic languages")){
+            System.out.println("Algol removed");
+        } else {
+            System.out.println("Algol not removed. Key/value pair not found");
+        }
+        if(languages.replace("Lisp", "Therein lies madness", "a functional programming language with imperative features")) {
+            System.out.println("Lisp replaced");
+        } else {
+            System.out.println("List was not replaced");
+        }
+
+        System.out.println(languages.replace("Scala", "this will not be added"));
         for(String key: languages.keySet()) {
             System.out.println(key + " : " + languages.get(key));
         }
